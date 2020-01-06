@@ -10,7 +10,7 @@ cd hbase-2.1.1
 
 ## 1.2 환경설정
 
-`vi conf/hbase-env.sh`에서 `JAVA_HOME=/usr` 수정
+`vi conf/hbase-env.sh`에서 `export JAVA_HOME=/usr` 수정
 
 `vi conf/hbase-site.xml`에서 아래 내용처럼 내용을 추가
 
