@@ -78,4 +78,9 @@ tsd.http.cachedir= /tmp/tsd
 ```
 sudo ./build/tsdb tsd --auto-metric
 ```
+## 접속하는 방법
+```
+http:192.168.0.12 (ip 주소):4242(포트번호)
+```
+
 
