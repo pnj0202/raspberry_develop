@@ -55,3 +55,9 @@ cd hbase-2.1.1
  cd opentsdb
  sudo ./build.sh
 ```
+## 2.3 HBase에 OpenTSDB 필수 테이블 생성
+```
+env COMPRESSION=NONE HBASE_HOME=/usr/local/hbase-2.1.1 ./src/create_table.sh
+```
+
+ env C
