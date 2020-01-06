@@ -1,5 +1,6 @@
 # 라즈베리파이 OpenTSDB설치 방법
 
+## 1.0 libjffi-1.2.so 파일 /usr/lib 이동
 ## 1.1 프로그램 다운로드
 ```
 cd /usr/local
@@ -61,5 +62,20 @@ cd hbase-2.1.1
 ```
 env COMPRESSION=NONE HBASE_HOME=/usr/local/hbase-2.1.1 ./src/create_table.sh
 ```
+## 2.4 환경설정
+```
+cd /etc
+sudo mkdir opentsdb
+cd /usr/local/openstsdb
+sudo cp src/opentsdb.conf /etc/opentsdb
 
- env C
+sudo vi /etc/opentsdb/opentsdb.conf 엥서
+tsd.network.port=4242
+tsd.http.staticroot= ./buuild/staticroot
+tsd.http.cachedir= /tmp/tsd
+```
+## 프로그램 실행
+```
+sudo ./build/tsdb tsd --auto-metric
+```
+
