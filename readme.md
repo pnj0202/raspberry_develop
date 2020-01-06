@@ -69,7 +69,7 @@ sudo mkdir opentsdb
 cd /usr/local/openstsdb
 sudo cp src/opentsdb.conf /etc/opentsdb
 
-sudo vi /etc/opentsdb/opentsdb.conf 엥서
+sudo vi /etc/opentsdb/opentsdb.conf 에서
 tsd.network.port=4242
 tsd.http.staticroot= ./buuild/staticroot
 tsd.http.cachedir= /tmp/tsd
