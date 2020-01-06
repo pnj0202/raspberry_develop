@@ -39,6 +39,8 @@ cd hbase-2.1.1
  
  ## 1.4 Java 설치 (설치가안되어있는경우)
  
+ 
+ 
  `$ sudo apt-get install openjdk-8-jdk openjdk-8-jre`
  
  # 2.OpenTSDB
