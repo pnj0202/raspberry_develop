@@ -26,12 +26,12 @@ cd hbase-2.1.1
     <value>/var/local/hbase-2.1.1/zookeeper</value>
    </property>
    <property>
-     <name>hbase.unsafe.stream.capability.enforce<name>
+     <name>hbase.unsafe.stream.capability.enforce</name>
      <value>false</value>
      <description>
        Controls whether HBase will check for stream capabilities  (hflush/hsync).
      </description>
-     </property>
+    </property>
  </configuration>
  ```
  ## 1.3프로그램시작
