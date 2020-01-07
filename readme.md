@@ -76,6 +76,7 @@ tsd.http.cachedir= /tmp/tsd
 ```
 ## 프로그램 실행
 ```
+/usr/local/opentsdb 에서 실행
 sudo ./build/tsdb tsd --auto-metric
 ```
 ## 접속하는 방법
