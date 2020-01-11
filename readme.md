@@ -121,4 +121,12 @@ sudo service grafana-server start
   * https://www.circuits.dk/install-grafana-influxdb-raspberry/
 * PC
   * http://docs.grafana.org/installation/debian/
+  
+  ## vnc 접속방법
+```
+라즈베리파이 먼저 접속
+$ vncserver
+ip 주소를 보내면
+vnc 뷰어에서 그대로 접속 하면 됨
+```
 
