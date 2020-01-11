@@ -127,6 +127,6 @@ sudo service grafana-server start
 라즈베리파이 먼저 접속
 $ vncserver
 ip 주소를 보내면
-vnc 뷰어에서 그대로 접속 하면 됨
+vnc 뷰어에서 그대로 접속 하면 됨(vnc 뷰어는 구글에서 윈도우즈용으로 다운받아 설치 하면 됨)
 ```
 
